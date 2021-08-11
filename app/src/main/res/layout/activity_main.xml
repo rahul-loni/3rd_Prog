@@ -43,9 +43,18 @@
             android:inputType="numberPassword"
             android:textColorHint="@color/white"/>
         <Button
+            android:id="@+id/btnlogin"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:text="Login"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btnSignup"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Signup Hare "
             android:textStyle="bold"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"/>
